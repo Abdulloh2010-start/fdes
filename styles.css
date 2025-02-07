@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.header{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: black;
+    height: 100px;
+    align-content: center;
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 119px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.img{
+    background-color: white;
+}
+
+.div{
+    width: 380px;
+    height: 551.5px;
+    border-radius: 16px 16px 24px 24px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.group{
+    margin: 20px 280px;
+}
+
+.profile{
+    margin: 0 100px;
+}
+
+.div2{
+    width: 280px;
+    height: 70px;
+    border-radius: 9px 0px 0px 0px;
+    background-color: rgba(250, 250, 250, 1);
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.div2 p{
+    color: rgba(239, 64, 15, 1);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(14, 13, 93, 1);
+}
+
+.time{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(286.17deg, #E33D0E 0%, #FF7D58 100%);
+    border-radius: 16px;
+    width: 380px;
+    height: 75px;
+}
+
+.div4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.div3 p{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 119px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
